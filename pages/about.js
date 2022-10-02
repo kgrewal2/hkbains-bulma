@@ -1,11 +1,9 @@
-import Navigation from "../components/Navigation";
 import Image from "next/image";
 import YogaPicture from "../public/undraw-yoga.svg"
 import ChildPicture from '../public/undraw-child.svg';
 import WorkPicture from '../public/undraw-work.svg';
 import GraduatePicture from '../public/undraw-graduate.svg';
 import ConceptCard from "../components/ConceptCard";
-import Footer from "../components/Footer";
 import HobbyCard from "../components/HobbyCard";
 import BookshelfPicture from "../public/undraw_bookshelves.svg";
 import CameraPicture from "../public/undraw-camera.svg";
@@ -17,7 +15,7 @@ export default function About() {
                 <div className="flex flex-col justify-center gap-4 basis-2/3">
                     <span className="text-6xl text-orange-700">About Me</span>
                     <span className="text-2xl text-justify">
-                    Currently pursuing a Master's degree in User Experience at Arizona State University.
+                    Currently pursuing a Master&apos;s degree in User Experience at Arizona State University.
                     I love working in an interdisciplinary team and creating a better experience by researching what the users want.
                 </span>
                 </div>
@@ -41,8 +39,8 @@ export default function About() {
                 <div className="grid grid-cols-2 gap-8">
                     <HobbyCard title="Try finding me in the library" imagePath={BookshelfPicture}
                                description="Here are my top picks: ASD. ASD. aSD"/>
-                    <HobbyCard title="Harman + Camera = <3" imagePath={CameraPicture}
-                               description="Sky, Squirrels, Skin. You name it. I can click anything I find."/>
+                    <HobbyCard title="Camera+Harman is a match made in heaven" imagePath={CameraPicture}
+                               description="Sky, Squirrels, Skin. You name it. I've clicked it."/>
                 </div>
             </div>
         </div>

@@ -1,4 +1,3 @@
-import Navigation from "../components/Navigation";
 import Image from "next/image";
 import profilePicture from "../public/undraw-profile-pic.svg"
 import ProjectCard from "../components/ProjectCard";
